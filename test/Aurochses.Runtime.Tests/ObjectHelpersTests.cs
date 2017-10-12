@@ -156,6 +156,45 @@ namespace Aurochses.Runtime.Tests
             new object[]
             {
                 null,
+                new []
+                {
+                    "One",
+                    "Two"
+                },
+                false
+            },
+            new object[]
+            {
+                new []
+                {
+                    "One",
+                    "Two"
+                },
+                new []
+                {
+                    "One",
+                    "OtherTwo"
+                },
+                false
+            },
+            new object[]
+            {
+                new []
+                {
+                    "One",
+                    "Two"
+                },
+                new []
+                {
+                    "One",
+                    "Two"
+                },
+                true
+            },
+
+            new object[]
+            {
+                null,
                 new List<string>
                 {
                     "One",

@@ -6,6 +6,7 @@ Aurochses Runtime is a library based on System.Runtime.
 
 [![NuGet](https://img.shields.io/nuget/v/Aurochses.Runtime.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Runtime)
 [![NuGet](https://img.shields.io/nuget/dt/Aurochses.Runtime.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Runtime)
+[![NuGet Status](http://nugetstatus.com/Aurochses.Runtime.png)](http://nugetstatus.com/packages/Aurochses.Runtime)
 
 ## Builds
 

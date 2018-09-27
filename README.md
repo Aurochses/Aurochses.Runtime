@@ -10,9 +10,8 @@ Aurochses Runtime is a library based on System.Runtime.
 
 ## Builds
 
-Type            | Status 
+Branch          | Status 
 ----------------|--------
-CI (develop)    | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/256.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=256)
-CI (pre-master) | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/257.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=257)
-PR (latest)     | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/258.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=258)
-NuGet           | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/259.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=259)
+develop    | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Runtime_CI?branchName=develop)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=370)
+pre-master | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Runtime_CI?branchName=pre-master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=370)
+master     | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Runtime_CI?branchName=master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=370)

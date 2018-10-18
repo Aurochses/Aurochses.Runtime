@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
-    <Version>2.1.0-alpha</Version>
+    <Version>2.1.0</Version>
     <Description>Aurochses Runtime is a library based on System.Runtime.</Description>
     <Copyright>Aurochses 2017</Copyright>
     <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Runtime/blob/master/LICENSE.txt</PackageLicenseUrl>

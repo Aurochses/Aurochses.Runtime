@@ -7,7 +7,7 @@
     <Version>2.1.0</Version>
     <Description>Aurochses Runtime is a library based on System.Runtime.</Description>
     <Copyright>Aurochses 2017</Copyright>
-    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Runtime/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Runtime/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Runtime/wiki</PackageProjectUrl>
     <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
     <RepositoryUrl>https://github.com/Aurochses/Aurochses.Runtime</RepositoryUrl>

@@ -36,11 +36,11 @@ namespace Aurochses.Runtime
             if (objType.IsArray || objType.GetInterfaces().Contains(typeof(IEnumerable)))
             {
                 var enumerableObj = ((IEnumerable<object>) obj).ToList();
-                var enumerableobjTo = ((IEnumerable<object>) objTo).ToList();
+                var enumerableObjTo = ((IEnumerable<object>) objTo).ToList();
 
                 for (var i = 0; i < enumerableObj.Count; i++)
                 {
-                    if (!enumerableObj[i].ValueEquals(enumerableobjTo[i]))
+                    if (!enumerableObj[i].ValueEquals(enumerableObjTo[i]))
                     {
                         return false;
                     }

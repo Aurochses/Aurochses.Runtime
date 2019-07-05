@@ -33,7 +33,7 @@ namespace Aurochses.Runtime.Tests
             {
                 new {Value = new Guid("00000000-0000-0000-0000-000000000001"), SecondValue = "TestSecondValue"},
                 new {SecondValue = "TestSecondValue", Value = new Guid("00000000-0000-0000-0000-000000000001")},
-                true
+                false
             },
             new object[]
             {
@@ -271,10 +271,10 @@ namespace Aurochses.Runtime.Tests
 
         [Theory]
         [MemberData(nameof(ValueEqualsMemberData))]
-        public void ValueEquals_Success(object obj, object objTo, bool isEqual)
+        public void DeepEquals_Success(object obj, object objTo, bool isEqual)
         {
             // Arrange & Act & Assert
-            Assert.Equal(isEqual, obj.ValueEquals(objTo));
+            Assert.Equal(isEqual, obj.DeepEquals(objTo));
         }
     }
 }

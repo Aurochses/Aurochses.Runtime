@@ -22,4 +22,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CompareNETObjects" Version="4.61.0" />
+  </ItemGroup>
+
 </Project>

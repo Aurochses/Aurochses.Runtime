@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Aurochses.Runtime.Tests.Fakes;
 using Xunit;
 
@@ -101,6 +102,22 @@ namespace Aurochses.Runtime.Tests
                 new ObjectHelpersValueEqualsMemberDataListModel
                 {
                     Items = null
+                },
+                new ObjectHelpersValueEqualsMemberDataListModel
+                {
+                    Items = new List<ObjectHelpersValueEqualsMemberDataListModel.ObjectHelpersValueEqualsMemberDataListItemModel>
+                    {
+                        new ObjectHelpersValueEqualsMemberDataListModel.ObjectHelpersValueEqualsMemberDataListItemModel {Value = "One"},
+                        new ObjectHelpersValueEqualsMemberDataListModel.ObjectHelpersValueEqualsMemberDataListItemModel {Value = "Two"}
+                    }
+                },
+                false
+            },
+            new object[]
+            {
+                new ObjectHelpersValueEqualsMemberDataListModel
+                {
+                    Items = Enumerable.Empty<ObjectHelpersValueEqualsMemberDataListModel.ObjectHelpersValueEqualsMemberDataListItemModel>().ToList()
                 },
                 new ObjectHelpersValueEqualsMemberDataListModel
                 {

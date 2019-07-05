@@ -38,6 +38,8 @@ namespace Aurochses.Runtime
                 var enumerableObj = ((IEnumerable<object>) obj).ToList();
                 var enumerableObjTo = ((IEnumerable<object>) objTo).ToList();
 
+                if (enumerableObj.Count != enumerableObjTo.Count) return false;
+
                 for (var i = 0; i < enumerableObj.Count; i++)
                 {
                     if (!enumerableObj[i].ValueEquals(enumerableObjTo[i]))
